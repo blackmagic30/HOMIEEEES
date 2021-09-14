@@ -1,0 +1,349 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden !important;
+    /* overflow: hidden; */
+}
+
+body a {
+    color: black;
+}
+
+body a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/*************************************************************** Navbar *****************************************************************/
+.main-nav nav {
+    padding-left: 62px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+    background-color: #FFFFFF;
+}
+.nav {
+    text-transform: capitalize;
+}
+.navbar-brand {
+    font-size: 20px;
+}
+.nav-item {
+    cursor: pointer;
+    margin-left: 12px;
+    font-weight: bolder;
+    color: black !important;
+}
+
+
+
+
+/******************************************** Login Page **********************************************/
+.auth-form {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 100%;
+    height: 100vh;
+}
+.auth-form .auth-form-inner {
+    background-color: white;
+    padding: 60px;
+}
+.auth-form .anticon  {
+    border: 1px solid #FFFFFF;
+    font-size: 23px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.auth-form  h4 {
+      color: white;
+}
+
+
+.auth-form .ant-input-affix-wrapper-sm {
+    border: none !important;
+    background: #f7f7f7 !important;
+}
+
+.auth-form .ant-input-affix-wrapper-sm {
+    padding: 2px 7px!important;
+    padding-left: 8px;
+    border-radius: 28px;
+}
+
+.auth-form .ant-input{
+    border: none;
+    background: #f7f7f7;
+}
+
+
+ .auth-form .floating-label-group .anticon {
+        font-size: 15px;
+ }
+
+ .auth-form .floating-label-group .ant-input-prefix {
+        background: #FFFFFF !important;
+        border-radius: 23px;
+        padding-left: 0px;
+ }
+
+ 
+ .ant-input-affix-wrapper {
+     border: 1px solid transparent;
+     border-radius: 20px;
+ }
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+    border-color: #40a9ff;
+    border-right-width: 1px !important;
+    z-index: 1;
+}
+.ant-input-affix-wrapper:hover {
+    border-color: #40a9ff;
+    border-right-width: 1px !important;
+}
+.ant-input-affix-wrapper:hover {
+    border: none !important;
+}
+
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+    border : 1px solid rgba(130, 36, 227, 0.8) !important;
+    z-index: 1;
+}
+
+.ant-input-affix-wrapper-focused {
+    border: 1px solid rgba(130, 36, 227, 0.8) !important;
+    box-shadow: none !important;
+}
+
+.ant-input-affix-wrapper:focus {
+    border: 1px solid rgba(130, 36, 227, 0.8) !important;
+    box-shadow: none !important;
+}
+
+
+
+.auth-form .form-check-input:checked {
+    background-color: rgba(130, 36, 227, 0.8);
+    border-color: rgba(130, 36, 227, 0.8);
+    box-shadow: none;
+}
+
+.auth-form a {
+    color: white;
+    padding-right: 28px;
+}
+
+.auth-form a.pass {
+    color: rgba(130, 36, 227, 0.8);
+    font-weight: 500;
+}
+
+
+
+
+
+/************************************************** Signup Page ************************************************/
+.auth-form  .signup-right {
+    background-color: #FFFFFF;
+    padding-right: 10px;
+}
+
+.auth-form .anticon {
+    font-size: 23px;
+    padding: 12px;
+}
+
+.auth-form  h4 {
+      color: white;
+}
+
+.auth-form .ant-input-affix-wrapper-sm {
+    border: none !important;
+    background: #f7f7f7 !important;
+}
+
+.auth-form .ant-input-affix-wrapper-sm {
+    padding: 2px 7px!important;
+    padding-left: 8px;
+    border-radius: 28px;
+}
+
+.auth-form .ant-input{
+    border: none;
+    background: #f7f7f7;
+}
+
+input:-internal-autofill-selected {
+    background-color: #fff !important;
+    background-image: none !important;
+    color: -internal-light-dark(black, white) !important;
+}
+
+ .auth-form .floating-label-group .anticon {
+        font-size: 15px;
+ }
+
+ .auth-form .floating-label-group .ant-input-prefix {
+        background: #FFFFFF !important;
+        border-radius: 23px;
+        padding-left: 0px;
+ }
+
+ 
+ .ant-input-affix-wrapper {
+     border: 1px solid transparent;
+     border-radius: 20px;
+ }
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+    border-color: #40a9ff;
+    border-right-width: 1px !important;
+    z-index: 1;
+}
+.ant-input-affix-wrapper:hover {
+    border-color: #40a9ff;
+    border-right-width: 1px !important;
+}
+.ant-input-affix-wrapper:hover {
+    border: none !important;
+}
+
+
+.ant-input-affix-wrapper:not(.ant-input-affix-wrapper-disabled):hover {
+    border : 1px solid rgba(130, 36, 227, 0.8) !important;
+    z-index: 1;
+}
+
+.ant-input-affix-wrapper-focused {
+    border: 1px solid rgba(130, 36, 227, 0.8) !important;
+    box-shadow: none !important;
+}
+
+.ant-input-affix-wrapper:focus {
+    border: 1px solid rgba(130, 36, 227, 0.8) !important;
+    box-shadow: none !important;
+}
+
+
+
+.auth-form .form-check-input:checked {
+    background-color: rgba(130, 36, 227, 0.8);
+    border-color: rgba(130, 36, 227, 0.8);
+    box-shadow: none;
+}
+
+.auth-form a {
+    color: white;
+    padding-right: 28px;
+}
+
+.auth-form a.pass {
+    color: rgba(130, 36, 227, 0.8);
+    font-weight: 500;
+}
+
+.auth-form .ant-form-item {
+    margin-bottom: 12px !important;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+    padding: 6px;
+}
+.auth-form .ant-picker {
+    border: none !important;
+    background: #f7f7f7 !important;
+    border-radius: 23px;
+    width: 100%;
+}
+.auth-form .ant-picker-focused {
+    border: none !important;
+    background: #f7f7f7 !important;
+    box-shadow: none !important;
+}
+.ant-picker:hover, .ant-picker-focused {
+    border-color: #40a9ff;
+    border-right-width: 1px !important;
+}
+
+.auth-form .ant-form-item-children-icon {
+    position: absolute !important;
+    top: 30% !important;
+    right: 4px !important;
+}
+
+
+
+
+
+/**************************************** Home *****************************************************************/
+.Home .row > .col-md-3 {
+    text-align: center;
+}
+
+.side-header {
+    background-color: #383a45;
+    background-image: linear-gradient(
+    135deg
+    , #4f5261 0%, #383a45 50%);
+    height: 60vh;
+    width: 21vw;
+}
+
+/* .Home .profile-block > img {
+    margin-top: 60px;
+} */
+
+.Home .profile-block {
+    position: relative;
+    left: 15px;
+    top: 10vh;
+    width: 250px;
+}
+
+.main-profile {
+    background-color: #fff;
+    border-radius: 15px;  
+}
+
+.Home .main-profile img {
+    border-radius: 110px;
+}
+
+.Home .header-light {
+    padding-top: 100px;
+    width: 21vw;
+    background: #e7edf2;
+}
+
+.Home .header-light a {
+     color: #838daa;
+     transition-property: color;
+     transition-duration: 1s;
+}
+
+.Home .header-light a:hover {
+    color: #8224e3;
+}
+
+.Home .header-light a {
+    font-size: 15px;
+}
+
+.Home .header-light a .anticon {
+    padding-bottom: 8px;
+    font-size: 17px;
+}
+
+
+.ant-comment.sender-chat {
+  margin-left: 47%;
+}
+
+
+ .header-avatar .ant-comment-content-author-name > * {
+      color: black !important;
+ }
+
+
+ 
